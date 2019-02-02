@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42ABD4D96ACDC5873F92609F /* Pods_MemeLens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F045E2928ACF67BDD7594432 /* Pods_MemeLens.framework */; };
 		53964D4A2206135E00767D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D492206135E00767D94 /* AppDelegate.swift */; };
-		53964D4C2206135E00767D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D4B2206135E00767D94 /* ViewController.swift */; };
 		53964D512206136000767D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53964D502206136000767D94 /* Assets.xcassets */; };
 		53964D542206136000767D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53964D522206136000767D94 /* LaunchScreen.storyboard */; };
+		53964D5D2206143700767D94 /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D5C2206143700767D94 /* AppFlowController.swift */; };
+		53964D5F2206145600767D94 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D5E2206145600767D94 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53964D462206135E00767D94 /* MemeLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53964D492206135E00767D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53964D4B2206135E00767D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53964D502206136000767D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53964D532206136000767D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53964D552206136000767D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53964D5C2206143700767D94 /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		53964D5E2206145600767D94 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8E86E5AF0637EEE17D1AD548 /* Pods-MemeLens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeLens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemeLens/Pods-MemeLens.debug.xcconfig"; sourceTree = "<group>"; };
+		BF0D17C88C52EB59975AA7CB /* Pods-MemeLens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeLens.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemeLens/Pods-MemeLens.release.xcconfig"; sourceTree = "<group>"; };
+		F045E2928ACF67BDD7594432 /* Pods_MemeLens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemeLens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ABD4D96ACDC5873F92609F /* Pods_MemeLens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,8 @@
 			children = (
 				53964D482206135E00767D94 /* MemeLens */,
 				53964D472206135E00767D94 /* Products */,
+				D6947A94D492073D48E51246 /* Pods */,
+				6BD775FB1575ADF168E63763 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +61,39 @@
 		53964D482206135E00767D94 /* MemeLens */ = {
 			isa = PBXGroup;
 			children = (
-				53964D492206135E00767D94 /* AppDelegate.swift */,
-				53964D4B2206135E00767D94 /* ViewController.swift */,
-				53964D502206136000767D94 /* Assets.xcassets */,
-				53964D522206136000767D94 /* LaunchScreen.storyboard */,
 				53964D552206136000767D94 /* Info.plist */,
+				53964D522206136000767D94 /* LaunchScreen.storyboard */,
+				53964D5E2206145600767D94 /* SplashViewController.swift */,
+				53964D492206135E00767D94 /* AppDelegate.swift */,
+				53964D5C2206143700767D94 /* AppFlowController.swift */,
+				53964D5B2206141900767D94 /* Resources */,
 			);
 			path = MemeLens;
+			sourceTree = "<group>";
+		};
+		53964D5B2206141900767D94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53964D502206136000767D94 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BD775FB1575ADF168E63763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F045E2928ACF67BDD7594432 /* Pods_MemeLens.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6947A94D492073D48E51246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E86E5AF0637EEE17D1AD548 /* Pods-MemeLens.debug.xcconfig */,
+				BF0D17C88C52EB59975AA7CB /* Pods-MemeLens.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53964D582206136000767D94 /* Build configuration list for PBXNativeTarget "MemeLens" */;
 			buildPhases = (
+				97938F21562C92BE76631E5C /* [CP] Check Pods Manifest.lock */,
 				53964D422206135E00767D94 /* Sources */,
 				53964D432206135E00767D94 /* Frameworks */,
 				53964D442206135E00767D94 /* Resources */,
+				22B5CA3F85F70DEA4C60411F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,13 +163,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B5CA3F85F70DEA4C60411F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MemeLens/Pods-MemeLens-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemeLens/Pods-MemeLens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97938F21562C92BE76631E5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemeLens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53964D422206135E00767D94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53964D4C2206135E00767D94 /* ViewController.swift in Sources */,
+				53964D5F2206145600767D94 /* SplashViewController.swift in Sources */,
 				53964D4A2206135E00767D94 /* AppDelegate.swift in Sources */,
+				53964D5D2206143700767D94 /* AppFlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +355,7 @@
 		};
 		53964D592206136000767D94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E86E5AF0637EEE17D1AD548 /* Pods-MemeLens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +374,7 @@
 		};
 		53964D5A2206136000767D94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0D17C88C52EB59975AA7CB /* Pods-MemeLens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

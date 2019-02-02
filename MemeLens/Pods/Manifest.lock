@@ -1,0 +1,20 @@
+PODS:
+  - EasyPeasy (1.8.0)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyPeasy
+    - Then
+
+SPEC CHECKSUMS:
+  EasyPeasy: bfffe5d47bbaaef3e32888c250a196768484b43a
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 6c103b7992427a72f6ebe659b8973a468a5900dd
+
+COCOAPODS: 1.5.3
