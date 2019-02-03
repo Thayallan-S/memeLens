@@ -8,14 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		42ABD4D96ACDC5873F92609F /* Pods_MemeLens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F045E2928ACF67BDD7594432 /* Pods_MemeLens.framework */; };
+		53393D4E2206575C00AAEDA8 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53393D4D2206575C00AAEDA8 /* Images.swift */; };
 		53964D4A2206135E00767D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D492206135E00767D94 /* AppDelegate.swift */; };
 		53964D512206136000767D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53964D502206136000767D94 /* Assets.xcassets */; };
 		53964D542206136000767D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53964D522206136000767D94 /* LaunchScreen.storyboard */; };
 		53964D5D2206143700767D94 /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D5C2206143700767D94 /* AppFlowController.swift */; };
 		53964D5F2206145600767D94 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D5E2206145600767D94 /* SplashViewController.swift */; };
+		53964D612206164E00767D94 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D602206164E00767D94 /* UI.swift */; };
+		53964D6422061BCF00767D94 /* UIColor+HexValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D6322061BCF00767D94 /* UIColor+HexValue.swift */; };
+		53964D6622061C4C00767D94 /* UIViewController+AddRemoveChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D6522061C4C00767D94 /* UIViewController+AddRemoveChild.swift */; };
+		53964D6822061C6500767D94 /* String+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D6722061C6500767D94 /* String+image.swift */; };
+		53964D6A22061F4E00767D94 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53964D6922061F4E00767D94 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53393D4D2206575C00AAEDA8 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		53964D462206135E00767D94 /* MemeLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53964D492206135E00767D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53964D502206136000767D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -23,6 +30,11 @@
 		53964D552206136000767D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53964D5C2206143700767D94 /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
 		53964D5E2206145600767D94 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		53964D602206164E00767D94 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		53964D6322061BCF00767D94 /* UIColor+HexValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexValue.swift"; sourceTree = "<group>"; };
+		53964D6522061C4C00767D94 /* UIViewController+AddRemoveChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddRemoveChild.swift"; sourceTree = "<group>"; };
+		53964D6722061C6500767D94 /* String+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+image.swift"; sourceTree = "<group>"; };
+		53964D6922061F4E00767D94 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E86E5AF0637EEE17D1AD548 /* Pods-MemeLens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeLens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemeLens/Pods-MemeLens.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0D17C88C52EB59975AA7CB /* Pods-MemeLens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeLens.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemeLens/Pods-MemeLens.release.xcconfig"; sourceTree = "<group>"; };
 		F045E2928ACF67BDD7594432 /* Pods_MemeLens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemeLens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +78,10 @@
 				53964D5E2206145600767D94 /* SplashViewController.swift */,
 				53964D492206135E00767D94 /* AppDelegate.swift */,
 				53964D5C2206143700767D94 /* AppFlowController.swift */,
+				53964D6922061F4E00767D94 /* MainViewController.swift */,
 				53964D5B2206141900767D94 /* Resources */,
+				53964D6222061B8C00767D94 /* Extensions */,
+				53393D4D2206575C00AAEDA8 /* Images.swift */,
 			);
 			path = MemeLens;
 			sourceTree = "<group>";
@@ -74,9 +89,20 @@
 		53964D5B2206141900767D94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				53964D602206164E00767D94 /* UI.swift */,
 				53964D502206136000767D94 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		53964D6222061B8C00767D94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53964D6322061BCF00767D94 /* UIColor+HexValue.swift */,
+				53964D6522061C4C00767D94 /* UIViewController+AddRemoveChild.swift */,
+				53964D6722061C6500767D94 /* String+image.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6BD775FB1575ADF168E63763 /* Frameworks */ = {
@@ -217,9 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53964D6422061BCF00767D94 /* UIColor+HexValue.swift in Sources */,
 				53964D5F2206145600767D94 /* SplashViewController.swift in Sources */,
+				53964D612206164E00767D94 /* UI.swift in Sources */,
 				53964D4A2206135E00767D94 /* AppDelegate.swift in Sources */,
+				53393D4E2206575C00AAEDA8 /* Images.swift in Sources */,
 				53964D5D2206143700767D94 /* AppFlowController.swift in Sources */,
+				53964D6822061C6500767D94 /* String+image.swift in Sources */,
+				53964D6622061C4C00767D94 /* UIViewController+AddRemoveChild.swift in Sources */,
+				53964D6A22061F4E00767D94 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
