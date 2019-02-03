@@ -123,8 +123,8 @@ extension MainViewController: ARSCNViewDelegate {
                         
                         
                         print("Starting...")
-                        let twilioSID = "AC2563fbeafe641619ff90a344c1ca3e22"
-                        let twilioSecret = "1972a0ceaee73dabae90ab0ebafef8b1"
+                        let twilioSID = ""
+                        let twilioSecret = ""
                         //Note replace + = %2B , for To and From phone number
                         let fromNumber = "+16473609102"// actual number is +9999999
                         let toNumber = "+16472283352"// actual number is +9999999
